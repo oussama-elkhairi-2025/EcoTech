@@ -235,7 +235,9 @@ main {
 }
 
 .fifth-page {
-    background-image: url("./img/Rectangle.png"); height: 900px;
+    background-image: url("./img/Rectangle.png");
+    background-size: cover;
+    
 }
 
 .footer {
@@ -263,10 +265,8 @@ main {
 }
 
 
-
-
-
 .last {
+    background-image: url(".");
     display: flex;
     justify-content: space-between;
     margin-left: 180px;
@@ -287,4 +287,9 @@ main {
     display: flex;
     justify-content: row;
     justify-content: space-between;
+}
+
+.for-footer {
+    background-image: url("./img/background-color.png");
+    background-size: cover;
 }
